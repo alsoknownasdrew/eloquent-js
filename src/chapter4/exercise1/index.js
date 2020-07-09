@@ -8,6 +8,4 @@ const range = (start, end, step = 1) => {
     return rangeList;
 };
 
-const sum = (array) => {
-    return array.reduce((accumulator, currentValue) => accumulator + currentValue);
-};
+const sum = (array) => array.reduce((accumulator, currentValue) => accumulator + currentValue);
