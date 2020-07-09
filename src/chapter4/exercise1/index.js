@@ -1,6 +1,7 @@
-const range = (start, end) => {
+const range = (start, end, step = 1) => {
+
     let rangeList = [];
-    for (let i = start; i <= end; i++) {
+    for (let i = start; i <= end; i += step) {
         rangeList.push(i);
     }
 
