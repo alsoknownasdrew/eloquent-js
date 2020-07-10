@@ -16,4 +16,8 @@ const range = (start, end, step = 1) => {
     return rangeList;
 };
 
-const sum = (array) => array.reduce((accumulator, currentValue) => accumulator + currentValue);
+const sum = (array) => {
+    if (array.length === 0) return 0;
+
+    return array.reduce((accumulator, currentValue) => accumulator + currentValue)
+};
